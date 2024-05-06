@@ -42,7 +42,7 @@ public class Main {
             }
             System.out.println("Потребуется дней: " + dey);
         }
-        System.out.println(" Задача 4 ");
+        System.out.println(" Задача 5 ");
 
         int monthNumber = 12;
         switch (monthNumber) {
