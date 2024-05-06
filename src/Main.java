@@ -1,7 +1,8 @@
 public class Main {
     public static void main(String[] args) {
         System.out.println(" Задача 1 ");
-        int clientOS = 1;;
+        int clientOS = 1;
+        ;
         if (clientOS == 0) {
             System.out.println(" Установите версию приложения для iOS по cсылке ");
         } else {
@@ -21,7 +22,7 @@ public class Main {
         }
         System.out.println(" Задача 3 ");
         int year = 2021;
-        if (year > 1584 ) {
+        if (year > 1584) {
             if (year % 4 == 0 && year % 100 != 0 || year % 400 == 0) {
                 System.out.println(year + "год является високосным");
             } else {
@@ -46,32 +47,33 @@ public class Main {
 
         int monthNumber = 12;
 
-         if (monthNumber >12) {
-             System.out.println(" программа не работате ");
-             }else {
-        switch (monthNumber) {
-            case 1:
-            case 2:
-            case 12:
-                System.out.println(" Зима ");
-                break;
-            case 3:
-            case 4:
-            case 5:
-                System.out.println(" Весна ");
-                break;
-            case 6:
-            case 7:
-            case 8:
-                System.out.println(" Лето ");
-                break;
-            case 9:
-            case 10:
-            case 11:
-                System.out.println(" Осень ");
-                break;
-            default:
-                System.out.println(" Не знаем такого месяца ");}
+        if (monthNumber > 12) {
+            System.out.println(" Программа не работает. ");
+        } else {
+            switch (monthNumber) {
+                case 1:
+                case 2:
+                case 12:
+                    System.out.println(" Зима ");
+                    break;
+                case 3:
+                case 4:
+                case 5:
+                    System.out.println(" Весна ");
+                    break;
+                case 6:
+                case 7:
+                case 8:
+                    System.out.println(" Лето ");
+                    break;
+                case 9:
+                case 10:
+                case 11:
+                    System.out.println(" Осень ");
+                    break;
+                default:
+                    System.out.println(" Не знаем такого месяца ");
+            }
         }
 
     }
