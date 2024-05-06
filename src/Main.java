@@ -66,6 +66,8 @@ public class Main {
             case 11:
                 System.out.println(" Осень ");
                 break;
+            default:
+                System.out.println(" Не знаем такого месяца ");
         }
     }
 
