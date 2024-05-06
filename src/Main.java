@@ -44,7 +44,11 @@ public class Main {
         }
         System.out.println(" Задача 5 ");
 
-        int monthNumber = 13;
+        int monthNumber = 12;
+
+         if (monthNumber >12) {
+             System.out.println(" программа не работате ");
+             }else {
         switch (monthNumber) {
             case 1:
             case 2:
@@ -67,8 +71,9 @@ public class Main {
                 System.out.println(" Осень ");
                 break;
             default:
-                System.out.println(" Не знаем такого месяца ");
+                System.out.println(" Не знаем такого месяца ");}
         }
+
     }
 
 }
